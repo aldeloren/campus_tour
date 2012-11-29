@@ -36,6 +36,7 @@ $(document).ready(function () {
       $('.pin').css('opacity' , '1');
       $('.pin').css('background-color' , 'transparent')
       $('#places-right-overlay').fadeIn('fast');
+      $('#content').fadeOut('fast');
     })
   );
 //pin click
@@ -46,7 +47,8 @@ $(document).ready(function () {
       '-moz-background-size':'cover',
       '-o-background-size':'cover',
       'background-size':'cover'
-      })
+      });
+    $('#content').fadeIn('fast');
   });
   $('#pin-two').click(function(){
     $('#background').css({
@@ -55,7 +57,8 @@ $(document).ready(function () {
       '-moz-background-size':'cover',
       '-o-background-size':'cover',
       'background-size':'cover'
-      })
+      });
+    $('#content').fadeOut('fast');
   });
   $('#pin-three').click(function(){
     $('#background').css({
@@ -64,7 +67,8 @@ $(document).ready(function () {
       '-moz-background-size':'cover',
       '-o-background-size':'cover',
       'background-size':'cover'
-      })
+      });
+    $('#content').fadeOut('fast');
   });
   $('#pin-four').click(function(){
     $('#background').css({
@@ -73,7 +77,8 @@ $(document).ready(function () {
       '-moz-background-size':'cover',
       '-o-background-size':'cover',
       'background-size':'cover'
-      })
+      });
+    $('#content').fadeOut('fast');
   });
 
 
