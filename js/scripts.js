@@ -66,6 +66,15 @@ $(document).ready(function () {
       'background-size':'cover'
       })
   });
+  $('#pin-four').click(function(){
+    $('#background').css({
+      'background':'#333 url(images/weimer.jpg) no-repeat center center fixed',
+      '-webkit-background-size':'cover',
+      '-moz-background-size':'cover',
+      '-o-background-size':'cover',
+      'background-size':'cover'
+      })
+  });
 
 
 });//final closing	

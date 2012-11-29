@@ -23,7 +23,8 @@ html, body {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background: #333 url(images/weimer.jpg) no-repeat center center fixed; 
+	padding-bottom: -173px;
+	background: #111 url(images/phillips1.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -38,7 +39,7 @@ html, body {
 	position: absolute;
 	width: 100%;
 	height: 40px;
-	background: #333;
+	background: #111;
 }
 	#header img{
 		padding-left:20px;
@@ -120,7 +121,7 @@ html, body {
 	width: 100%;
 	bottom:0;
 	z-index: 7;
-	background: rgba(0, 0, 0, .85);
+	background: #111;
 	-webkit-box-shadow: 0px 0px 10px rgb(50, 50, 50);
 	-moz-box-shadow:    0px 0px 10px rgb(50, 50, 50);
 	box-shadow:         0px 0px 10px rgb(50, 50, 50);
@@ -147,7 +148,7 @@ html, body {
 		font-weight: 700;
 		padding:10px;
 	}
-	#center p{
+	#center h4{
 		text-align: center;
 		font-size: 1.2em;
 		margin: 0 auto;
@@ -155,47 +156,24 @@ html, body {
 		
 	}
 #places{
-	width:960px;
+	width:1000px;
 	margin: 0 auto;
+	padding-top: 10px;
 	overflow: hidden;
 }
-#places-left{
-	width: 450px;
-	float: left;
-}
-#places-right{
-	float:right;
-	margin-top:0px;
-	padding: 5px;
-}
-	#places-right-overlay{
-		position: absolute;
-		width: 500px;
-		height: 250px;
-		background: rgba(247, 243, 232, .8);
-	}
-	#places-right-overlay h3{
-		font-size: 3em;
-		font-weight: 700;
-		color:#999;
-		text-align: center;
-		text-shadow: 0px 0px 2px #666;
-		margin-top: 90px;
-	}
 .pin{
 	display: inline-block;
 	color: #DDDFE1;
 	padding: 10px;
 	cursor: pointer;
-	float:left;
-	transition: background .2s;
-	-moz-transition: background .2s; /* Firefox 4 */
-	-webkit-transition: background .2s; /* Safari and Chrome */
-	-o-transition: background .2s; /* Opera */
 }
-.pin p:hover{
-	text-decoration: underline;
-}
+	.pin:hover{
+		opacity: 1 !important;
+			transition: opacity .3s;
+	-moz-transition: opacity .3s; /* Firefox 4 */
+	-webkit-transition: opacity .3s; /* Safari and Chrome */
+	-o-transition: opacity .3s; /* Opera */
+	}
 	.pin img{
 		padding-right: 10px;
 	}
